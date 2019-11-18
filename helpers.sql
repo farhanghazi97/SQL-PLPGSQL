@@ -1,6 +1,3 @@
--- COMP3311 19T3 Assignment 3
--- Helper views and functions (if needed)
-
 CREATE OR REPLACE VIEW Q1a(id, code, title, quota) AS
 	select c.id, s.code, s.title, c.quota from courses c 
 	join subjects s on (c.subject_id = s.id)                                       
