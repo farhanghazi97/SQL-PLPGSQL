@@ -1,5 +1,3 @@
-# COMP3311 19T3 Assignment 3
-
 import connector
 conn = connector.connect()
 
