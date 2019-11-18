@@ -1,8 +1,6 @@
-# COMP3311 19T3 Assignment 3
-
 import sys
-import cs3311
-conn = cs3311.connect()
+import connector
+conn = connector.connect()
 
 cur = conn.cursor()
 

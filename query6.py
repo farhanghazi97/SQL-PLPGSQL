@@ -1,5 +1,5 @@
-import cs3311
-conn = cs3311.connect()
+import connector
+conn = connector.connect()
 
 cur = conn.cursor()
 
